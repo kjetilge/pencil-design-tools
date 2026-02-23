@@ -41,6 +41,32 @@ Combined workflow - mockup + optional SwiftUI conversion.
 /pencil-design-tools:design iOS onboarding flow -> SwiftUI
 ```
 
+### `/pencil-design-tools:ux-review`
+Validate mockups against UX best practices and Apple Human Interface Guidelines.
+
+```
+/pencil-design-tools:ux-review
+```
+
+**Checks:**
+- Touch/click target sizes (44pt iOS, 24pt macOS)
+- Color contrast (WCAG compliance)
+- Cognitive load (too many choices?)
+- Platform conventions (Apple HIG)
+- Error prevention & recovery
+- Loading & empty states
+
+### `/pencil-design-tools:swift`
+Generate SwiftUI code directly from description (no visual mockup step).
+
+```
+/pencil-design-tools:swift Login form with email and password
+/pencil-design-tools:swift macOS settings window with sidebar --platform macos
+/pencil-design-tools:swift Video card with thumbnail and duration badge
+```
+
+**Use when:** You know what you want and prefer iterating in Xcode's live preview.
+
 ## Installation
 
 ### From Local Marketplace

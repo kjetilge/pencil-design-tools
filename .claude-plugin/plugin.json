@@ -1,7 +1,7 @@
 {
   "name": "pencil-design-tools",
-  "description": "AI-powered design tools for creating mockups with Pencil.dev and converting designs to SwiftUI code. Perfect for rapid prototyping, specification documents, and Apple platform development (iOS, macOS, iPadOS, watchOS, tvOS, visionOS).",
-  "version": "0.2.0",
+  "description": "AI-powered design tools: mockups with Pencil.dev, UX validation against Apple HIG, and SwiftUI code generation. Perfect for PRD work, specification documents, and Apple platform development (iOS, macOS, iPadOS, watchOS, tvOS, visionOS).",
+  "version": "0.3.0",
   "author": {
     "name": "Kjetil Golid",
     "email": "kjetil@example.com"

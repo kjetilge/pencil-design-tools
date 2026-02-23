@@ -3,8 +3,8 @@
   "description": "AI-powered design tools: mockups with Pencil.dev, UX validation against Apple HIG, and SwiftUI code generation. Perfect for PRD work, specification documents, and Apple platform development (iOS, macOS, iPadOS, watchOS, tvOS, visionOS).",
   "version": "0.3.0",
   "author": {
-    "name": "Kjetil Golid",
-    "email": "kjetil@example.com"
+    "name": "Kjetil Geirbo",
+    "email": "kjetil@geirbo.no"
   },
   "homepage": "https://github.com/kjetilge/pencil-design-tools",
   "repository": "https://github.com/kjetilge/pencil-design-tools",

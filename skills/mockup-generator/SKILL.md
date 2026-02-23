@@ -83,10 +83,34 @@ Always return a complete markdown snippet for the spec document:
 
 ## Design Principles
 
-### Mobile-First Dimensions
-- iPhone: 375 x 812 (standard), 390 x 844 (Pro)
-- iPad: 820 x 1180
-- Desktop: 1440 x 900
+### Apple Platform Dimensions
+
+**iOS (iPhone)**
+- iPhone SE: 375 x 667
+- iPhone 15: 393 x 852
+- iPhone 15 Pro Max: 430 x 932
+
+**iPadOS**
+- iPad Mini: 744 x 1133
+- iPad Air/Pro 11": 820 x 1180
+- iPad Pro 12.9": 1024 x 1366
+
+**macOS**
+- Compact window: 800 x 600
+- Standard window: 1200 x 800
+- Full app: 1440 x 900
+
+**watchOS**
+- Apple Watch 41mm: 176 x 215
+- Apple Watch 45mm: 198 x 242
+- Apple Watch Ultra: 205 x 251
+
+**tvOS**
+- 1920 x 1080 (safe area: 1740 x 980)
+
+**visionOS**
+- Window: 1280 x 720 (standard)
+- Immersive: varies
 
 ### Common Components
 

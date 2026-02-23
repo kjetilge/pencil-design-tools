@@ -2,6 +2,8 @@
 
 AI-powered design tools for Claude Code and Claude Cowork.
 
+**Supports all Apple platforms:** iOS, macOS, iPadOS, watchOS, tvOS, visionOS
+
 ## Features
 
 ### `/pencil-design-tools:mockup`
@@ -9,6 +11,8 @@ Create UI mockups from natural language descriptions using Pencil.dev.
 
 ```
 /pencil-design-tools:mockup Login screen with email, password, and social login
+/pencil-design-tools:mockup macOS settings window with sidebar
+/pencil-design-tools:mockup visionOS immersive view
 ```
 
 **Output:**
@@ -17,22 +21,24 @@ Create UI mockups from natural language descriptions using Pencil.dev.
 - Markdown snippet for spec documents
 
 ### `/pencil-design-tools:swiftui`
-Convert Pencil designs to SwiftUI code.
+Convert Pencil designs to SwiftUI code for any Apple platform.
 
 ```
 /pencil-design-tools:swiftui
 ```
 
 **Output:**
-- SwiftUI View structs
+- SwiftUI View structs (works on all Apple platforms)
 - Color theme from design variables
 - Proper layout with VStack/HStack/ZStack
+- Platform-appropriate modifiers
 
 ### `/pencil-design-tools:design`
 Combined workflow - mockup + optional SwiftUI conversion.
 
 ```
-/pencil-design-tools:design Settings page for iOS app -> SwiftUI
+/pencil-design-tools:design Settings page for macOS app -> SwiftUI
+/pencil-design-tools:design iOS onboarding flow -> SwiftUI
 ```
 
 ## Installation
